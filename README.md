@@ -21,7 +21,6 @@ The 8 to 3 line Encoder is also known as Octal to Binary Encoder. In 8 to 3 line
 Figure 01  Block Diagram of Encoder 8 * 3
 
 **Truth Table**
-![Screenshot 2024-11-26 111645](https://github.com/user-attachments/assets/b5a804f5-e4f3-4cbc-9e9b-aa95b1f0f0d2)
 
 ![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/35496b14-ae6e-4cd1-9abd-d6736b576575)
 
