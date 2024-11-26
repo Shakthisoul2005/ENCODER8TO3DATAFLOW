@@ -1,4 +1,8 @@
-### ENCODER 8TO3 DATAFLOW Modelling
+```
+NAME : Shakthivel v
+REG NUMBER : 24901278
+```
+**EXP 5 . ENCODER 8TO3 DATAFLOW Modelling**
 
 **AIM:**
 
@@ -41,16 +45,25 @@ Figure 02  Encoder 8 * 3
 **PROGRAM**
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:
-*/
-
+```
+module encoder(din,a,b,c);
+input[0:7]din;
+output a;
+output b;
+output c;
+assign a = din[4]|din[5]|din[6]|din[7];
+assign b = din[2]|din[3]|din[6]|din[7];
+assign c = din[2]|din[4]|din[6]|din[7];
+endmodule
+```
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+![Screenshot 2024-11-26 111244](https://github.com/user-attachments/assets/912ddcaa-3f0a-4219-885b-c2e766de6787)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+![Screenshot 2024-11-26 111401](https://github.com/user-attachments/assets/78080323-52d1-4580-9d26-fb70e2f84d61)
 
 **RESULTS**
 
-
+Thus the encoder experiment 5 is verified
 
 
